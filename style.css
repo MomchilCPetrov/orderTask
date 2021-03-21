@@ -1,0 +1,63 @@
+label, input{
+    display:block;
+    margin: 0 auto;
+}
+
+form input{
+    margin-bottom: 1%;
+    width: 25%;
+}
+
+form{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+form input[type="submit"]{
+    margin: 0 auto;
+    display:block;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 4px;
+    background-color: #33cc33;
+    color:white;
+    border: none;
+    padding: 0.5%;
+}
+
+table{
+    border:1px solid #33cc33;
+    padding: 1%;
+    margin: 0 auto;
+    width: 70%;
+    border-radius: 4px;
+}
+
+table th{
+    text-align: center;
+}
+
+table tbody td{
+    text-align: center;
+    border-bottom:1px solid black;
+    padding: 0.5%;
+}
+
+table tbody tr:nth-child(odd) button{
+    background: #33cc33;
+    color:white;
+}
+
+button#loadOrders{
+    margin: 0 auto;
+    display:block;
+    padding:1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 4px;
+}
+
+#success{
+    display: none;
+}
